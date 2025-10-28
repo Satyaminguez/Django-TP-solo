@@ -201,7 +201,36 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+# Fichiers Python
+*.pyc
+__pycache__/
+
+# Environnement virtuel
+venv/
+.env
+
+# Fichiers Django
+*.sqlite3
+media/
+
+# Fichiers Node.js
+node_modules/
+
+# Fichiers de configuration locaux
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Logs
+*.log
+debug.log
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.iml
+
+# Autres fichiers temporaires
+.DS_Store
+Thumbs.db
